@@ -1,0 +1,12 @@
+[submodule "Engine/Source/ThirdParty/cpu_features"]
+	path = Engine/Source/ThirdParty/cpu_features
+	url = https://github.com/HamsterGraphics/cpu_features.git
+[submodule "Engine/Source/ThirdParty/JoltPhysics"]
+	path = Engine/Source/ThirdParty/JoltPhysics
+	url = https://github.com/HamsterGraphics/JoltPhysics.git
+[submodule "Engine/Source/ThirdParty/lua"]
+	path = Engine/Source/ThirdParty/lua
+	url = https://github.com/HamsterGraphics/lua.git
+[submodule "Engine/Source/ThirdParty/ozz-animation"]
+	path = Engine/Source/ThirdParty/ozz-animation
+	url = https://github.com/HamsterGraphics/ozz-animation.git
