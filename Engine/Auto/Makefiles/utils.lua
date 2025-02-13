@@ -76,11 +76,11 @@ Project.CommonSettings = function()
 	rtti("Off")	
 
 	-- Strict compile.
-	warnings("Default")
 	externalwarnings("Off")
+	fatalwarnings("All")
+	warnings("Default")
 
 	flags {
 		"MultiProcessorCompile", -- speed up compile
-		"FatalWarnings", -- treat warnings as errors
 	}
 end

@@ -259,9 +259,8 @@ if __name__ == "__main__":
         print("1. Build third-party projects")
         print("2. Download third-party packages")
         print("3. Build engine project")
-        print("4. Exit")
 
-        choice = input(f"{Fore.YELLOW}Enter your choice (0-4): {Fore.RESET}")
+        choice = input(f"{Fore.YELLOW}Enter your choice (0-3): {Fore.RESET}")
 
         if choice == "0":
             build_third_party_projects()
@@ -273,8 +272,5 @@ if __name__ == "__main__":
             download_third_party_packages()
         elif choice == "3":
             build_engine_project(platform_name)
-        elif choice == "4":
-            print(f"{Fore.CYAN}Exiting...{Fore.RESET}")
-            break  # Exit the loop
         else:
-            print(f"{Fore.RED}Invalid choice! Please enter a number between 0 and 4.{Fore.RESET}")
+            print(f"{Fore.RED}Invalid choice! Please enter a number between 0 and 3.{Fore.RESET}")
